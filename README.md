@@ -14,12 +14,12 @@
 ## Installation
 
 ```bash
-npm install reverse-geocoding
+npm install rev-geocoding
 
 ```
 
 ```Js
-const ReverseGeocode = require('reverse-geocoding');
+const ReverseGeocode = require('rev-geocoding');
 
 const geocode = new ReverseGeocode();
 geocode.getAddress(48.858844, 2.294351) // Eiffel Tower
